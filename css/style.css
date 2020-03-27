@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+body {
+    margin: 0px;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-family: Open Sans;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+.header {
+    background-color: #0a0e34;
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    background-image: url("../images/football_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    background-color: #0a0e34;
+}
+
+.container__for__logo {
+    text-align: center;
+}
+
+.logo__text__surface {
+    width: 9.94%;
+    padding-top: 2.34%;
+    padding-bottom: 15.4%;
+    fill: #ffffff;
+}
+
+.title__1, .title__2 {
+    font-size: 3.38vw;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.title__1 {
+    padding-left: 20.15%;
+}
+
+.title__2 {
+    padding-left: 35.66%;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.App__Store__social, .Google__Play__social {
+   display: flex;
+   font-size: 0.68vw;
+   color: #ffffff;
+   text-transform: uppercase;
+   width: 11.08vw;
+}
+
+.social__logo {
+    width: 2.03vw;
+    fill: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
