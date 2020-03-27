@@ -76,14 +76,34 @@ body {
 .social {
     display: flex;
     justify-content: center;
+    padding-top: 11.41vw;
+    padding-bottom: 5.73vw;
 }
 
 .App__Store__social, .Google__Play__social {
    display: flex;
+   align-items: center;
+   position: relative;
    font-size: 0.68vw;
    color: #ffffff;
    text-transform: uppercase;
    width: 11.08vw;
+   padding: 1.2vw 2.03vw;
+   background-color: #5e42b0;
+   z-index: 10;
+   border-radius: 1.56vw;
+}
+
+.App__Store__social {
+    margin-right: 1.3vw;
+}
+
+.Google__Play__social {
+    margin-left: 1.3vw;
+}
+
+.thumb {
+    padding-right: 1.25vw;
 }
 
 .social__logo {
