@@ -8,6 +8,10 @@ body {
     margin: 0px;
 }
 
+h3, h4, p {
+    margin: 0px;
+}
+
 @font-face {
     src: url(../fonts/OpenSans-Bold.ttf);
     font-family: Open Sans;
@@ -34,7 +38,7 @@ body {
 
 .header::after {
     content: "";
-    background-image: url("../images/football_1920.jpg");
+    background-image: url("../images/football_767.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -45,6 +49,7 @@ body {
     right: 0;
     opacity: 0.1;
     background-color: #0a0e34;
+
 }
 
 .container__for__logo {
@@ -52,14 +57,14 @@ body {
 }
 
 .logo__text__surface {
-    width: 9.94%;
-    padding-top: 2.34%;
-    padding-bottom: 15.4%;
+    width: 38.75%;
+    padding-top: 9.69%;
+    padding-bottom: 41.88%;
     fill: #ffffff;
 }
 
 .title__1, .title__2 {
-    font-size: 3.38vw;
+    font-size: 8.75vw;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
@@ -67,51 +72,185 @@ body {
 }
 
 .title__1 {
-    padding-left: 20.15%;
+    padding-left: 6.25%;
 }
 
 .title__2 {
-    padding-left: 35.66%;
+    padding-left: 20%;
 }
 
 .social {
-    display: flex;
-    justify-content: center;
-    padding-top: 11.41vw;
-    padding-bottom: 5.73vw;
+    text-align: center;
+    padding-top: 27.81vw;
+    padding-bottom: 26.25vw;
 }
 
 .App__Store__social, .Google__Play__social {
-   display: flex;
-   align-items: center;
-   position: relative;
-   font-size: 0.68vw;
-   color: #ffffff;
-   text-transform: uppercase;
-   width: 11.08vw;
-   padding: 1.2vw 2.03vw;
-   background-color: #5e42b0;
-   z-index: 10;
-   border-radius: 1.56vw;
-}
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 2.5vw;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 40vw;
+    padding: 0.63vw 23.13vw;
+    background-color: #5e42b0;
+    z-index: 10;
+    border-radius: 6.25vw;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 .App__Store__social {
-    margin-right: 1.3vw;
-}
-
-.Google__Play__social {
-    margin-left: 1.3vw;
-}
-
-.thumb {
-    padding-right: 1.25vw;
+    margin-bottom: 4.06vw;
 }
 
 .social__logo {
-    width: 2.03vw;
+    width: 6.88vw;
     fill: #ffffff;
+    padding-right: 2.5vw;
 }
 
 .bold {
     font-weight: bold;
+}
+
+@media (min-width: 1920px) {
+
+    .header::after {
+        content: "";
+        background-image: url("../images/football_1920.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0.1;
+        background-color: #0a0e34;
+    }
+
+    .logo__text__surface {
+        width: 9.94%;
+        padding-top: 2.34%;
+        padding-bottom: 15.4%;
+        fill: #ffffff;
+    }
+
+    .title__1, .title__2 {
+        font-size: 3.38vw;
+        margin: 0px;
+    }
+
+    .title__1 {
+        padding-left: 20.15%;
+    }
+    
+    .title__2 {
+        padding-left: 35.66%;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        padding-top: 11.41vw;
+        padding-bottom: 5.73vw;
+    }
+
+    .App__Store__social, .Google__Play__social {
+        display: flex;
+        align-items: center;
+        position: relative;
+        font-size: 0.73vw;
+        color: #ffffff;
+        text-transform: uppercase;
+        width: 11.08vw;
+        padding: 1.2vw 2.03vw;
+        background-color: #5e42b0;
+        z-index: 10;
+        border-radius: 1.56vw;
+        margin: 0px;
+     }
+     
+     .App__Store__social {
+        margin-right: 1.3vw;
+    }
+    
+    .Google__Play__social {
+        margin-left: 1.3vw;
+    }
+    
+    .thumb {
+        padding-right: 1.25vw;
+    }
+    
+    .social__logo {
+        width: 2.03vw;
+        fill: #ffffff;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .thumb {
+        margin: 0px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+    
+
+h3 {
+    font-size: 4.17vw;
+    color: #e7e7e7;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.88vw;
+    color: #c1c1c1;
+    font-weight: bold;
+}
+
+.flex__box__athlets {
+    padding-top: 5.74vw;
+    padding-left: 52.55vw;
+}
+
+.number__flex {
+    display: flex;
+}
+
+.number {
+    font-size: 0.94vw;
+    font-weight: bold;
+    color: #000000;
+    display: block;
+    margin-right: 0.63vw;
+    align-self: center;
+}
+
+.number::after {
+    content: "";
+    display: block;
+    width: 1.09vw;
+    height: 0.26vw;
+    background-color: #5e42b0;
+    border-radius: 1.56vw;
+    margin-top: 0.31vw;
+}
+
+.desk {
+    font-size: 1.04vw;
+}
+
+.collaboration {
+    background-color: #f5f4fa;
+}
+
+.growth {
+    background-color: #5e42b0;
+}
 }
