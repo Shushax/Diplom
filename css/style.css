@@ -115,6 +115,76 @@ body {
     font-weight: bold;
 }
 
+@media (min-width: 768px) {
+
+    .header::after {
+        content: "";
+        background-image: url("../images/football_1280.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0.1;
+        background-color: #0a0e34;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        padding-top: 40.63vw;
+        padding-bottom: 11.98vw;
+    }
+
+    .App__Store__social, .Google__Play__social {
+        display: flex;
+        align-items: center;
+        position: relative;
+        font-size: 1.82vw;
+        color: #ffffff;
+        text-transform: uppercase;
+        width: 27.08vw;
+        padding: 2.21vw 7.29vw;
+        background-color: #5e42b0;
+        z-index: 10;
+        border-radius: 1.56vw;
+        margin: 0px;
+     }
+     
+     .App__Store__social {
+        margin-right: 1.30vw;
+    }
+    
+    .Google__Play__social {
+        margin-left: 1.30vw;
+    }
+    
+    .thumb {
+        padding-right: 1.25vw;
+    }
+    
+    .social__logo {
+        width: 4.82vw;
+        fill: #ffffff;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .thumb {
+        margin: 0px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+    
+
+
+}
+
 @media (min-width: 1920px) {
 
     .header::after {
@@ -200,57 +270,4 @@ body {
     .bold {
         font-weight: bold;
     }
-    
-
-h3 {
-    font-size: 4.17vw;
-    color: #e7e7e7;
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 1.88vw;
-    color: #c1c1c1;
-    font-weight: bold;
-}
-
-.flex__box__athlets {
-    padding-top: 5.74vw;
-    padding-left: 52.55vw;
-}
-
-.number__flex {
-    display: flex;
-}
-
-.number {
-    font-size: 0.94vw;
-    font-weight: bold;
-    color: #000000;
-    display: block;
-    margin-right: 0.63vw;
-    align-self: center;
-}
-
-.number::after {
-    content: "";
-    display: block;
-    width: 1.09vw;
-    height: 0.26vw;
-    background-color: #5e42b0;
-    border-radius: 1.56vw;
-    margin-top: 0.31vw;
-}
-
-.desk {
-    font-size: 1.04vw;
-}
-
-.collaboration {
-    background-color: #f5f4fa;
-}
-
-.growth {
-    background-color: #5e42b0;
-}
-}
+} 
