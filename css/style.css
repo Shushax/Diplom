@@ -10,6 +10,7 @@ body {
 
 h3, h4, p {
     margin: 0px;
+    padding: 0px;
 }
 
 @font-face {
@@ -113,6 +114,67 @@ body {
 
 .bold {
     font-weight: bold;
+}
+
+.athlets {
+    margin-top: 7.81vw;
+    position: relative;
+}
+
+.flex__box__athlets {
+ display: flex;
+ justify-content: center;
+}
+
+h3 {
+    font-size: 15.63vw;
+    color: #e7e7e7;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 74.38vw;
+    padding-left: 6.25vw;
+}
+
+.athlet__image {
+    display: block;
+    width: 55.63vw;
+    position: absolute;
+    top: 20%;
+}
+
+.connection {
+  padding-top: 25.31vw;
+  background-color: #fafafa;
+}
+
+h4 {
+    padding-left: 6.25vw;
+    display: flex;
+    font-size: 7.19vw;
+    color: #c1c1c1;
+    font-weight: bold;
+    padding-bottom: 7.19vw;
+}
+
+.text {
+    font-size: 4.69vw;
+    padding-left: 6.25vw;
+}
+
+.number {
+    color: #000000;
+    font-size: 4.38vw;
+    font-weight: bold;
+    padding-right: 2.5vw;
+}
+
+.number::after {
+    content: "";
+    display: block;
+    background-color: #5e42b0;
+    width: 5.31vw;
+    height: 1.25vw;
+    border-radius: 30%;
 }
 
 @media (min-width: 768px) {
