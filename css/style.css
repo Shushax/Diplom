@@ -70,6 +70,7 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     margin: 0px;
+    display: block;
 }
 
 .title__1 {
@@ -90,11 +91,11 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    font-size: 2.5vw;
+    font-size: 2.81vw;
     color: #ffffff;
     text-transform: uppercase;
-    width: 40vw;
-    padding: 0.63vw 23.13vw;
+    width: 32vw;
+    padding: 0.63vw 25.31vw;
     background-color: #5e42b0;
     z-index: 10;
     border-radius: 6.25vw;
@@ -107,7 +108,7 @@ body {
 }
 
 .social__logo {
-    width: 6.88vw;
+    width: 5.5vw;
     fill: #ffffff;
     padding-right: 2.5vw;
 }
@@ -269,11 +270,11 @@ h4 {
         font-size: 1.82vw;
         color: #ffffff;
         text-transform: uppercase;
-        width: 27.08vw;
+        width: 23.31vw;
         padding: 2.21vw 7.29vw;
         background-color: #5e42b0;
         z-index: 10;
-        border-radius: 1.56vw;
+        border-radius: 6vw;
         margin: 0px;
      }
      
@@ -290,7 +291,7 @@ h4 {
     }
     
     .social__logo {
-        width: 4.82vw;
+        width: 5.99vw;
         fill: #ffffff;
         margin: 0px;
         padding: 0px;
