@@ -496,4 +496,15 @@ h4 {
     .special__5 {
         padding-left: 9.06vw;
     }
+
+    .athlet__image {
+        width: 29.69vw;
+        top: 1.3vw;
+        left: 20.05vw;
+    }
+
+    .player__image {
+        width: 51.51vw;
+        top: 0px;
+    }
 } 
