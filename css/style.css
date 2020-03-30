@@ -354,6 +354,16 @@ h4 {
     .special__5 {
         padding-left: 4.04vw;
     }
+
+    .player__image {
+        width: 56.77vw;
+        top: 0px;
+        left: 43.2vw;
+    }
+
+    .special__6 {
+        width: 50vw;
+    }
 }
 
 @media (min-width: 1920px) {
