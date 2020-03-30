@@ -456,4 +456,44 @@ h4 {
     .bold {
         font-weight: bold;
     }
+
+    .athlets {
+        margin-top: 2.92vw;
+    }
+
+    h3 {
+        font-size: 4.17vw;
+        padding-left: 52.24vw
+    }
+
+    .connection {
+        padding-bottom: 2.76vw;
+    }
+
+    h4 {
+        font-size: 1.88vw;
+        padding-top: 2.6vw;
+        padding-left: 52.24vw;
+        padding-bottom: 1.2vw;
+    }
+
+    .number {
+        font-size: 0.94vw;
+        padding-right: 0.63vw;
+    }
+
+    .number::after {
+        width: 0.83vw;
+        height: 0.26vw;
+    }
+
+    .text {
+        font-size: 1.04vw;
+        padding-left: 52.24vw;
+        width: 37.92vw;
+    }
+
+    .special__5 {
+        padding-left: 9.06vw;
+    }
 } 
