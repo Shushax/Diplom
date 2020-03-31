@@ -232,6 +232,56 @@ h4 {
     border-radius: 30%;
 }
 
+.be__active {
+    position: relative;
+}
+
+.be__active__image {
+    width: 100vw;
+}
+
+.second__number {
+    display: block;
+    font-size: 4.38vw;
+    padding: 7.81vw;
+    background-color: #5e42b0;
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 21.88vw;
+    position: absolute;
+    top: 91.56vw;
+
+}
+
+.second__number::after {
+    content: "";
+    display: block;
+    background-color: #8f7bc8;
+    width: 5.31vw;
+    height: 1.25vw;
+    border-radius: 30%;
+}
+
+.subtitle {
+    font-size: 8.75vw;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 6.56vw;
+    padding-left: 5.63vw;
+    padding-bottom: 5.63vw;
+}
+
+.subtext {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5.63vw;
+    font-size: 5vw;
+    color: #000000;
+    width: 87.5vw;
+
+}
+
 @media (min-width: 768px) {
 
     .header::after {
