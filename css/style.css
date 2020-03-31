@@ -276,10 +276,23 @@ h4 {
     margin: 0px;
     padding: 0px;
     padding-left: 5.63vw;
+    margin-bottom: 22.5vw;
     font-size: 5vw;
     color: #000000;
     width: 87.5vw;
 
+}
+
+.find__contact {
+    position: relative;
+}
+
+.find__contact__image {
+    width: 100vw;
+}
+
+.work__it {
+    position: relative;
 }
 
 @media (min-width: 768px) {
