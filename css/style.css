@@ -236,10 +236,6 @@ h4 {
     position: relative;
 }
 
-.be__active__image {
-    width: 100vw;
-}
-
 .second__number {
     display: block;
     font-size: 4.38vw;
@@ -427,6 +423,31 @@ h4 {
     .special__6 {
         width: 50vw;
     }
+
+    .subtitle {
+        font-size: 10.41vw;
+        padding-top: 10.68vw;
+        padding-left: 4.69vw;
+        padding-bottom: 3.13vw;
+    }
+
+    .second__number {
+        top: -14vw;
+        left: 8vw;
+        padding: 5.08vw;
+        font-size: 3.13vw;
+        width: 14.97vw;
+    }
+
+    .second__number::after {
+        width: 3.13vw;
+        height: 0.65vw;
+    }
+
+    .subtext {
+        margin-bottom: 12.76vw;
+        font-size: 3.13vw;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -569,5 +590,72 @@ h4 {
     .player__image {
         width: 51.51vw;
         top: 0px;
+    }
+
+    .be__active {
+        display: flex;
+    }
+
+    .be__active__image {
+        width: 50vw;
+        display: block;
+    }
+
+    .subtitle {
+        font-size: 4.17vw;
+        padding-top: 11vw;
+        padding-left: 6.67vw;
+        padding-bottom: 5.52vw;
+    }
+
+    .second__number {
+        text-align: center;
+        top: 10.73vw;
+        left: -4.5vw;
+        padding: 2.45vw;
+        font-size: 1.25vw;
+        width: 8.65vw;
+    }
+
+    .second__number::after {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1.2vw;
+        height: 0.26vw;
+    }
+
+    .subtext {
+        padding-left: 6.67vw;
+        font-size: 1.25vw;
+        width: 33.85vw;
+        margin-bottom: 0px;
+    }
+
+    .find__contact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .find__contact__image {
+        width: 50vw;
+        display: block;
+    }
+
+    .find__contact picture {
+        order: 1;
+    }
+
+    .special__8 {
+        top: 10.73vw;
+        left: 45vw;
+    }
+
+    .work__it {
+        display: flex;
+    }
+
+    .work__it__image {
+        width: 50vw;
+        display: block;
     }
 } 
