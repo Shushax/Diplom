@@ -8,7 +8,7 @@ body {
     margin: 0px;
 }
 
-h3, h4, p {
+h3, h2, h4, p, .text__download {
     margin: 0px;
     padding: 0px;
 }
@@ -289,6 +289,61 @@ h4 {
 
 .work__it {
     position: relative;
+}
+
+.footer {
+    background-color: #0a0e34;
+    position: relative;
+    text-align: center;
+}
+
+.footer::after {
+    content: "";
+    background-image: url("../images/game_767.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    background-color: #0a0e34;
+    z-index: 9;
+
+}
+
+.logo__surface {
+    position: relative;
+    width: 21.88vw; 
+    box-sizing: border-box;
+    padding: 2.81vw;
+    fill: #ffffff;
+    background-color: #5e42b0;
+    border-radius: 5vw;
+    z-index: 10;
+    margin-top: 30vw;
+    margin-bottom: 16.56vw;
+}
+
+h2 {
+    font-size: 10vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.text__download {
+    font-size: 4.38vw;
+    text-transform: uppercase;
+    color: #9b8ec1;
+    padding-bottom: 22.81vw;
+}
+
+.special__logo {
+    padding-top: 23.13vw;
+    padding-bottom: 2.5vw;
 }
 
 @media (min-width: 768px) {
