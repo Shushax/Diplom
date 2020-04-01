@@ -503,6 +503,37 @@ h2 {
         margin-bottom: 12.76vw;
         font-size: 3.13vw;
     }
+
+    .footer::after {
+        background-image: url("../images/game_1280.jpg");
+    }
+
+    .logo__surface {
+        margin-top: 16.02vw;
+        margin-bottom: 10.29vw;
+        width: 16.93vw;
+        padding: 3.13vw;
+    }
+
+    h2 {
+        font-size: 10.41vw;
+    }
+
+    .text__download {
+        font-size: 4.69vw;
+        padding-bottom: 36.98vw;
+    }
+
+    .special__9 {
+        padding-top: 0px;
+        padding-bottom: 6.12;
+    }
+
+    .special__logo__1 {
+        padding: 0px;
+        padding-bottom: 2.73vw;
+        width: 26.69vw;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -713,4 +744,43 @@ h2 {
         width: 50vw;
         display: block;
     }
-} 
+
+    .footer::after {
+        background-image: url("../images/game_1920.jpg");
+    }
+
+    .flex__box__download {
+        display: flex;
+        justify-content: center;
+        padding-top: 11.41vw;
+    }
+
+    .logo__surface {
+        width: 6.3vw;
+        padding: 1.09vw;
+        border-radius: 1vw;
+        margin: 0px;
+        height: 6.3vw;
+        align-self: center;
+    }
+
+    h2 {
+        font-size: 4.17vw;
+    }
+
+    .text__download {
+        padding: 0px;
+        font-size: 1.56vw;
+    }
+
+    .special__10 {
+        padding-top: 7.34vw;
+        padding-bottom: 12.81vw;
+    }
+
+    .special__logo__2 {
+        padding-top: 0px;
+        padding-bottom: 2.34vw;
+        width: 11.2vw;
+    }
+}
