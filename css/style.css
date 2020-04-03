@@ -236,6 +236,10 @@ h4 {
     position: relative;
 }
 
+.be__active__image {
+    width: 100vw;
+}
+
 .second__number {
     display: block;
     font-size: 4.38vw;
@@ -289,6 +293,10 @@ h4 {
 
 .work__it {
     position: relative;
+}
+
+.work__it__image {
+    width: 100vw;
 }
 
 .footer {
