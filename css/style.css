@@ -250,6 +250,7 @@ h4 {
     width: 21.88vw;
     position: absolute;
     top: 91.56vw;
+    left: 5.94vw;
 
 }
 
@@ -443,6 +444,7 @@ h2 {
 
     .number {
         font-size: 2.34vw;
+        font-weight: bold;
     }
 
     .number::after {
@@ -495,8 +497,8 @@ h2 {
     }
 
     .second__number {
-        top: -14vw;
-        left: 8vw;
+        top: 65.23vw;
+        left: 3.91vw;
         padding: 5.08vw;
         font-size: 3.13vw;
         width: 14.97vw;
@@ -542,6 +544,16 @@ h2 {
         padding-bottom: 2.73vw;
         width: 26.69vw;
     }
+
+    .text__with__bold {
+        width: 19.53vw;
+        padding-left: 3vw;
+        text-align: left;
+    }
+
+    .special__7 {
+        width: 13.8vw;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -569,7 +581,7 @@ h2 {
     }
 
     .title__1, .title__2 {
-        font-size: 3.38vw;
+        font-size: 4.69vw;
         margin: 0px;
     }
 
@@ -600,7 +612,7 @@ h2 {
         padding: 1.2vw 2.03vw;
         background-color: #5e42b0;
         z-index: 10;
-        border-radius: 1.56vw;
+        border-radius: 3vw;
         margin: 0px;
      }
      
@@ -617,14 +629,10 @@ h2 {
     }
     
     .social__logo {
-        width: 2.03vw;
+        width: 2.5vw;
         fill: #ffffff;
         margin: 0px;
         padding: 0px;
-    }
-
-    .special__7 {
-        margin-left: 1.15vw;
     }
     
     .thumb {
@@ -653,16 +661,20 @@ h2 {
         padding-top: 2.6vw;
         padding-left: 52.24vw;
         padding-bottom: 1.2vw;
+        display: flex;
     }
 
     .number {
         font-size: 0.94vw;
         padding-right: 0.63vw;
+        align-self: center;
     }
 
     .number::after {
-        width: 0.83vw;
+        width: 1vw;
         height: 0.26vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .text {
@@ -704,8 +716,8 @@ h2 {
 
     .second__number {
         text-align: center;
-        top: 10.73vw;
-        left: -4.5vw;
+        top: 10.78vw;
+        left: 45.42vw;
         padding: 2.45vw;
         font-size: 1.25vw;
         width: 8.65vw;
@@ -790,5 +802,15 @@ h2 {
         padding-top: 0px;
         padding-bottom: 2.34vw;
         width: 11.2vw;
+    }
+
+    .text__with__bold {
+        width: 7.86vw;
+        text-align: left;
+        padding-left: 1.15vw;
+    }
+
+    .special__7 {
+        width: 6vw;
     }
 }
