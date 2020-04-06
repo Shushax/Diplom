@@ -232,10 +232,6 @@ h4 {
     border-radius: 30%;
 }
 
-.be__active {
-    position: relative;
-}
-
 .be__active__image {
     width: 100vw;
 }
@@ -284,16 +280,8 @@ h4 {
 
 }
 
-.find__contact {
-    position: relative;
-}
-
 .find__contact__image {
     width: 100vw;
-}
-
-.work__it {
-    position: relative;
 }
 
 .work__it__image {
@@ -353,6 +341,10 @@ h2 {
 .special__logo {
     padding-top: 23.13vw;
     padding-bottom: 2.5vw;
+}
+
+.picture__with__number {
+    position: relative;
 }
 
 @media (min-width: 768px) {
@@ -753,7 +745,7 @@ h2 {
 
     .special__8 {
         top: 10.73vw;
-        left: 45vw;
+        left: -4vw;
     }
 
     .work__it {
@@ -812,5 +804,9 @@ h2 {
 
     .special__7 {
         width: 6vw;
+    }
+
+    .special__11 {
+        order: 1;
     }
 }
