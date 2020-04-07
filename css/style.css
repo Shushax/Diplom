@@ -708,8 +708,8 @@ h2 {
 
     .second__number {
         text-align: center;
-        top: 10.78vw;
-        left: 45.42vw;
+        right: 0px;
+        top: 0px;
         padding: 2.45vw;
         font-size: 1.25vw;
         width: 8.65vw;
@@ -744,8 +744,8 @@ h2 {
     }
 
     .special__8 {
-        top: 10.73vw;
-        left: -4vw;
+        top: 0px;
+        right: 0px;
     }
 
     .work__it {
