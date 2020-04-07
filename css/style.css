@@ -708,8 +708,9 @@ h2 {
 
     .second__number {
         text-align: center;
-        right: 0px;
-        top: 0px;
+        top: 50%; 
+        left: 100%;
+        transform: translate(-50%, -50%);
         padding: 2.45vw;
         font-size: 1.25vw;
         width: 8.65vw;
@@ -744,8 +745,9 @@ h2 {
     }
 
     .special__8 {
-        top: 0px;
-        right: 0px;
+        top: 50%; 
+        left: 0%;
+        transform: translate(-50%, -50%);
     }
 
     .work__it {
